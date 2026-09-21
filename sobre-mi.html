@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre mí — NA Nicole Masoterapia</title>
+<link rel="icon" href="img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <div class="nav-brand">
+      <img src="img/logo.jpeg" alt="Logo NA Nicole Masoterapia">
+      <div class="brandtext">
+        <span>NA Nicole</span>
+        <span class="sub">MASOTERAPIA PROFESIONAL</span>
+      </div>
+    </div>
+    <button class="nav-toggle" onclick="toggleNav()" aria-label="Abrir menú">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="sobre-mi.html" class="active">Sobre mí</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="about-v2" style="grid-template-columns:0.8fr 1.4fr;">
+    <div>
+      <div class="about-photo-wrap">
+        <svg class="deco-leaf" style="top:-25px;left:-55px;width:150px;height:170px;opacity:0.6;" viewBox="0 0 150 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15,160 C40,120 25,80 50,35 C60,65 75,25 95,10" stroke="var(--mauve)" stroke-width="2.5"/>
+          <ellipse cx="35" cy="105" rx="11" ry="22" fill="var(--mauve)" opacity="0.55" transform="rotate(35 35 105)"/>
+          <ellipse cx="58" cy="60" rx="10" ry="20" fill="var(--mauve)" opacity="0.55" transform="rotate(-20 58 60)"/>
+          <ellipse cx="80" cy="22" rx="8" ry="16" fill="var(--mauve)" opacity="0.55" transform="rotate(10 80 22)"/>
+        </svg>
+        <img class="about-photo" src="img/nicole-avatar.jpg" alt="Nicole Avello">
+      </div>
+    </div>
+    <div>
+      <div class="rol">Sobre mí</div>
+      <h1>Nicole Avello</h1>
+      <p style="color:var(--mauve);font-weight:600;font-size:15px;margin-top:-8px;">Técnico en Masoterapia</p>
+      <p>Soy Nicole Avello, Técnico en Masoterapia, con más de 8 años de experiencia en el área. Mi trabajo se basa en entregar una atención personalizada, evaluando las necesidades y objetivos de cada persona para seleccionar las técnicas más adecuadas en cada sesión.</p>
+      <p>Cuento con formación complementaria en distintas técnicas de bienestar corporal y estética, buscando entregar una experiencia profesional, responsable y enfocada en ti.</p>
+      <p class="script" style="color:var(--mauve);font-size:24px;">Tu bienestar es mi prioridad ♡</p>
+      <a href="contacto.html" class="btn btn-primary" style="margin-top:10px;">Reservar una hora</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="kicker text-center">Lo que me define</div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-mortarboard fi-icon"></i><h4>Formación profesional</h4></div>
+        <p>Técnico en Masoterapia y cursos complementarios.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-star fi-icon"></i><h4>Más de 8 años de experiencia</h4></div>
+        <p>En masoterapia, bienestar corporal y estética.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-person fi-icon"></i><h4>Atención personalizada</h4></div>
+        <p>Cada sesión se adapta a tus necesidades y objetivos.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-house-heart fi-icon"></i><h4>Sucursal y domicilio</h4></div>
+        <p>Tú eliges la modalidad que te acomode.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-v2">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="img/logo.jpeg" alt="NA Nicole">
+        <span>NA Nicole | Masoterapia Profesional</span>
+      </div>
+      <p class="muted">Nicole Avello · Técnico en Masoterapia<br>Atención personalizada · Sucursal y domicilio</p>
+    </div>
+    <div class="footer-contact">
+      <a href="#" data-whatsapp><i class="bi bi-whatsapp"></i> WhatsApp: +56 9 5060 2786</a>
+      <a href="https://instagram.com/ni_masoterapia" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> @ni_masoterapia</a>
+    </div>
+    <div class="footer-tagline">Tu bienestar,<br>mi prioridad ♡</div>
+  </div>
+  <div class="footer-bottom">© NA Nicole Masoterapia — Todos los derechos reservados</div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios — NA Nicole Masoterapia</title>
+<link rel="icon" href="img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <div class="nav-brand">
+      <img src="img/logo.jpeg" alt="Logo NA Nicole Masoterapia">
+      <div class="brandtext">
+        <span>NA Nicole</span>
+        <span class="sub">MASOTERAPIA PROFESIONAL</span>
+      </div>
+    </div>
+    <button class="nav-toggle" onclick="toggleNav()" aria-label="Abrir menú">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Inicio</a>
+      <a href="servicios.html" class="active">Servicios</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section container">
+  <div class="text-center">
+    <div class="tagline script" style="font-size:22px;color:var(--mauve);">Nuestros tratamientos</div>
+    <h1>Servicios de masoterapia</h1>
+    <p style="max-width:520px;margin:0 auto;color:var(--muted);">Esta lista se actualiza automáticamente desde la planilla de Nicole — siempre refleja los servicios y precios vigentes.</p>
+  </div>
+
+  <div class="servicios-grid" id="serviciosGrid">
+    <div class="estado-carga">Cargando servicios...</div>
+  </div>
+</section>
+
+<section class="section section-alt text-center">
+  <div class="container">
+    <h2>¿Ya sabes qué servicio quieres?</h2>
+    <a href="contacto.html" class="btn btn-primary">Solicitar hora</a>
+  </div>
+</section>
+
+<footer class="footer-v2">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="img/logo.jpeg" alt="NA Nicole">
+        <span>NA Nicole | Masoterapia Profesional</span>
+      </div>
+      <p class="muted">Nicole Avello · Técnico en Masoterapia<br>Atención personalizada · Sucursal y domicilio</p>
+    </div>
+    <div class="footer-contact">
+      <a href="#" data-whatsapp><i class="bi bi-whatsapp"></i> WhatsApp: +56 9 5060 2786</a>
+      <a href="https://instagram.com/ni_masoterapia" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> @ni_masoterapia</a>
+    </div>
+    <div class="footer-tagline">Tu bienestar,<br>mi prioridad ♡</div>
+  </div>
+  <div class="footer-bottom">© NA Nicole Masoterapia — Todos los derechos reservados</div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', cargarServicios);
+</script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NA Nicole — Masoterapia Profesional</title>
+<meta name="description" content="Masoterapia profesional, enfocada en tu bienestar. Atención personalizada en sucursal y a domicilio.">
+<link rel="icon" href="img/logo.jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Dancing+Script:wght@600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-wrap">
+    <div class="nav-brand">
+      <img src="img/logo.jpeg" alt="Logo NA Nicole Masoterapia">
+      <div class="brandtext">
+        <span>NA Nicole</span>
+        <span class="sub">MASOTERAPIA PROFESIONAL</span>
+      </div>
+    </div>
+    <button class="nav-toggle" onclick="toggleNav()" aria-label="Abrir menú">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="sobre-mi.html">Sobre mí</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="container hero-v2">
+  <div>
+    <div class="kicker">Bienestar · Salud · Equilibrio</div>
+    <h1>Masoterapia profesional,<span class="accent">enfocada en tu bienestar</span></h1>
+    <p class="lead">Atención personalizada y técnicas de masoterapia adaptadas a las necesidades de cada persona. Sesiones orientadas a la relajación, descarga muscular, bienestar corporal y cuidado estético.</p>
+    <div class="hero-ctas">
+      <a href="contacto.html" class="btn btn-primary"><i class="bi bi-calendar-check"></i> Reservar hora</a>
+      <a href="servicios.html" class="btn btn-secondary">Ver servicios <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="img/hero-masaje.jpg" alt="Sesión de masoterapia">
+    <div class="hero-badge">
+      <img src="img/logo.jpeg" alt="NA Nicole">
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOBRE MÍ (resumen) ===== -->
+<section class="section section-alt">
+  <div class="container about-v2">
+    <div>
+      <div class="about-photo-wrap">
+        <svg class="deco-leaf" style="top:-25px;left:-55px;width:150px;height:170px;opacity:0.6;" viewBox="0 0 150 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15,160 C40,120 25,80 50,35 C60,65 75,25 95,10" stroke="var(--mauve)" stroke-width="2.5"/>
+          <ellipse cx="35" cy="105" rx="11" ry="22" fill="var(--mauve)" opacity="0.55" transform="rotate(35 35 105)"/>
+          <ellipse cx="58" cy="60" rx="10" ry="20" fill="var(--mauve)" opacity="0.55" transform="rotate(-20 58 60)"/>
+          <ellipse cx="80" cy="22" rx="8" ry="16" fill="var(--mauve)" opacity="0.55" transform="rotate(10 80 22)"/>
+        </svg>
+        <img class="about-photo" src="img/nicole-avatar.jpg" alt="Nicole Avello">
+      </div>
+    </div>
+    <div>
+      <div class="rol">Sobre mí</div>
+      <h2>Nicole Avello</h2>
+      <p style="color:var(--mauve);font-weight:600;font-size:14px;margin-top:-10px;">Técnico en Masoterapia</p>
+      <p>Soy Nicole Avello, Técnico en Masoterapia, con más de 8 años de experiencia en el área. Mi trabajo se basa en entregar una atención personalizada, evaluando las necesidades y objetivos de cada persona para seleccionar las técnicas más adecuadas en cada sesión.</p>
+      <p>Cuento con formación complementaria en distintas técnicas de bienestar corporal y estética, buscando entregar una experiencia profesional, responsable y enfocada en ti.</p>
+      <p class="script" style="color:var(--mauve);font-size:22px;">Tu bienestar es mi prioridad ♡</p>
+    </div>
+    <div class="feature-list">
+      <div class="feature-item">
+        <div class="fi-icon"><i class="bi bi-mortarboard"></i></div>
+        <div><h4>Formación profesional</h4><p>Técnico en Masoterapia y cursos complementarios.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon"><i class="bi bi-star"></i></div>
+        <div><h4>Más de 8 años de experiencia</h4><p>En masoterapia, bienestar corporal y estética.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon"><i class="bi bi-person"></i></div>
+        <div><h4>Atención personalizada</h4><p>Cada sesión se adapta a tus necesidades y objetivos.</p></div>
+      </div>
+      <div class="feature-item">
+        <div class="fi-icon"><i class="bi bi-house-heart"></i></div>
+        <div><h4>Sucursal y domicilio</h4><p>Tú eliges la modalidad que te acomode.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICIOS (teaser) ===== -->
+<section class="section container text-center">
+  <div class="kicker">Nuestros servicios</div>
+  <h2>Técnicas y tratamientos</h2>
+  <p style="color:var(--muted);max-width:480px;margin:0 auto;">Todo lo que tu cuerpo necesita, en un solo lugar.</p>
+
+  <div class="servicios-teaser-grid">
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-person-arms-up"></i></div>
+      <h3>Masaje descontracturante</h3>
+      <p>Libera tensiones y alivia zonas de sobrecarga muscular.</p>
+    </div>
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-flower1"></i></div>
+      <h3>Masaje relajante</h3>
+      <p>Disminuye el estrés, mejora la circulación y entrega bienestar.</p>
+    </div>
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-arrow-repeat"></i></div>
+      <h3>Masaje reductor</h3>
+      <p>Apoya en la reducción de medidas y modela tu figura.</p>
+    </div>
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-droplet"></i></div>
+      <h3>Drenaje linfático</h3>
+      <p>Favorece la eliminación de líquidos y toxinas.</p>
+    </div>
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-stars"></i></div>
+      <h3>Masaje reafirmante / estético</h3>
+      <p>Mejora la elasticidad y apariencia de la piel.</p>
+    </div>
+    <div class="teaser-card">
+      <div class="ic"><i class="bi bi-heart-pulse"></i></div>
+      <h3>Masaje deportivo</h3>
+      <p>Previene lesiones y acelera la recuperación muscular.</p>
+    </div>
+  </div>
+
+  <a href="servicios.html" class="btn btn-secondary" style="margin-top:36px;">Ver todos los servicios <i class="bi bi-arrow-right"></i></a>
+</section>
+
+<!-- ===== POR QUÉ ELEGIR ===== -->
+<section class="section section-alt">
+  <svg class="deco-leaf" style="top:20px;right:40px;width:160px;height:160px;" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20,150 C60,120 40,80 70,40 C85,70 100,30 130,10" stroke="var(--mauve)" stroke-width="2"/>
+    <ellipse cx="45" cy="100" rx="10" ry="20" fill="#fff" opacity="0.5" transform="rotate(35 45 100)"/>
+    <ellipse cx="70" cy="55" rx="9" ry="18" fill="#fff" opacity="0.5" transform="rotate(-15 70 55)"/>
+  </svg>
+  <div class="container">
+    <div class="kicker">¿Por qué elegir NA Nicole?</div>
+    <h2>Una atención pensada para ti</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-heart fi-icon"></i><h4>Atención personalizada</h4></div>
+        <p>Cada sesión se adapta a tus necesidades, características y objetivos.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-star fi-icon"></i><h4>Profesional con experiencia</h4></div>
+        <p>Más de 8 años de experiencia en masoterapia y formación complementaria.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-flower1 fi-icon"></i><h4>Técnicas personalizadas</h4></div>
+        <p>Selección de técnicas manuales según las necesidades de cada sesión.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-head"><i class="bi bi-calendar3 fi-icon"></i><h4>Atención flexible</h4></div>
+        <p>En sucursal y a domicilio, según disponibilidad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band">
+  <div class="container">
+    <div class="kicker">Agenda tu sesión de bienestar</div>
+    <h2>Permíteme acompañarte con una atención profesional, personalizada y enfocada en tus necesidades.</h2>
+    <p>Consulta disponibilidad y coordinemos tu hora.</p>
+    <a href="#" class="btn btn-whatsapp" data-whatsapp data-whatsapp-msg="Hola, quiero agendar una hora de masoterapia"><i class="bi bi-whatsapp"></i> Agendar por WhatsApp</a>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer-v2">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-brand">
+        <img src="img/logo.jpeg" alt="NA Nicole">
+        <span>NA Nicole | Masoterapia Profesional</span>
+      </div>
+      <p class="muted">Nicole Avello · Técnico en Masoterapia<br>Atención personalizada · Sucursal y domicilio</p>
+    </div>
+    <div class="footer-contact">
+      <a href="#" data-whatsapp><i class="bi bi-whatsapp"></i> WhatsApp: +56 9 5060 2786</a>
+      <a href="https://instagram.com/ni_masoterapia" target="_blank" rel="noopener"><i class="bi bi-instagram"></i> @ni_masoterapia</a>
+    </div>
+    <div class="footer-tagline">Tu bienestar,<br>mi prioridad ♡</div>
+  </div>
+  <div class="footer-bottom">© NA Nicole Masoterapia — Todos los derechos reservados</div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
